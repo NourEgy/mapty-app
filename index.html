@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Built with JavaScript and leaflet.js." />
+    <meta property="og:title" content="Mapty App | NourEgy" />
+    <meta  property="og:description" content="Built with JavaScript and leaflet.js" />
+    <meta property="og:image" content="src/imgs/screenshot.jpg" />
+    <meta property="og:url" content="https://twitter.com/NourEldinRb" />
+    <meta name="author" content="NourEgy" />
+    <meta name="keywords" content="Mapty App, jonas schmedtman, NourEgy, HTML, CSS, JAVASCRIPT, PROJECTS"  />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mapty App | NourEgy" />
+    <meta name="twitter:site" content="@https://twitter.com/NourEldinRb" />
+    <meta name="twitter:description" content="Built with JavaScript and leaflet.js" />
+    <meta name="twitter:image" content="src/imgs/screenshot.jpg" />
+    <meta name="twitter:image:alt" content="Mapty App screenshot" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&family=Open+Sans:wght@600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+    <!-- PAGE TITLE -->
+    <title>mapty // Map your workouts</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- Scripts -->
+    <script defer src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+    <!-- <script defer src="other.js"></script> -->
+    <script defer src="main.js"></script>
+</head>
+<body>
+
+<!-- Start Main -->
+<div id="main">
+    
+    <div class="sidebar">
+      <img src="logo.png" alt="Logo" class="logo" />
+      <ul class="workouts">
+        <form class="form hidden">
+          <div class="form__row">
+            <label class="form__label">Type</label>
+            <select class="form__input form__input--type">
+              <option value="running">Running</option>
+              <option value="cycling">Cycling</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <label class="form__label">Distance</label>
+            <input class="form__input form__input--distance" placeholder="km" />
+          </div>
+          <div class="form__row">
+            <label class="form__label">Duration</label>
+            <input
+              class="form__input form__input--duration"
+              placeholder="min"
+            />
+          </div>
+
+          <div class="form__row">
+            <label class="form__label">Cadence</label>
+            <input
+              class="form__input form__input--cadence"
+              placeholder="step/min"
+            />
+          </div>
+          <div class="form__row form__row--hidden">
+            <label class="form__label">Elev Gain</label>
+            <input
+              class="form__input form__input--elevation"
+              placeholder="meters"
+            />
+          </div>
+          <button class="form__btn">OK</button>
+        </form>
+
+        
+
+        
+      </ul>
+      
+      <button type="button" class="restart">Restart All</button>
+      <p class="copyright">  &copy; Mapty. <span id="year"></span> <a class="twitter-link" target="_blank" href="https://twitter.com/NourEldinRb">NourEgy</a> and <a class="twitter-link" target="_blank" href="https://twitter.com/jonasschmedtman">Jonas Schmedtmann</a>. Use for learning And portfolio.</p>
+
+
+    </div>
+
+
+    <div id="map"></div>
+
+    <div class="message"></div>
+
+
+
+
+
+
+
+</body>
+</html>
