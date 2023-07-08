@@ -35,7 +35,7 @@ Mapty App Project -- Map your workouts, Object Oriented Programming, built with 
     <li>Twitter : <a href="https://twitter.com/iNourEgy" target="_blank">@iNourEgy</a></li>
     <li>LinkedIn : <a href="https://www.linkedin.com/in/nouregy/" target="_blank">@NourEgy</a></li>
     <li>Themeforest : <a href="https://themeforest.net/user/nouregy" target="_blank">NourEgy</a></li>
-    <li>Website : <a href="nour-egy.com" target="_blank">Nou-Egy.com</a></li>
+    <li>Website : <a href="https://nour-egy.com/" target="_blank">Nou-Egy.com</a></li>
 </ul>
 
 
