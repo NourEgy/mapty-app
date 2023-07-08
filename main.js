@@ -105,6 +105,8 @@ class App {
         // getLocalStorage
         this.getLocalStorage();
         
+        // Welcome to App
+        this.newFeature();
     }
 
     // Method Get Position
@@ -420,6 +422,9 @@ class App {
         }, 1200);
     }
     
+    newFeature() {
+        console.log("Welcome to Application");
+    }
 
 }
 

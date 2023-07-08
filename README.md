@@ -4,6 +4,8 @@
 
 Mapty App Project -- Map your workouts, Object Oriented Programming, built with HTML5, CSS3, JavaScript And leaflet.js,
 
+<img src="./imgs/maptyapp-NourEgy-screenshot.png" alt="img">
+
 <h2>Main Futures</h2>
 <ul>
   <li>Geolocation to display map at current location</li>
@@ -19,6 +21,7 @@ Mapty App Project -- Map your workouts, Object Oriented Programming, built with 
   <li>Delete item From list</li>
   <li>Rest App</li>
 </ul>
+
 
 <h2>Built with</h2>
 <ul>
