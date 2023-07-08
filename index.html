@@ -23,9 +23,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&family=Open+Sans:wght@600;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon" />
+
     <!-- PAGE TITLE -->
     <title>mapty // Map your workouts</title>
+
     <!-- CSS Styles -->
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -41,8 +43,9 @@
 <!-- Start Main -->
 <div id="main">
     
+    <!-- Start Sidebar -->
     <div class="sidebar">
-      <img src="logo.png" alt="Logo" class="logo" />
+      <img src="./imgs/logo.png" alt="Logo" class="logo" />
       <ul class="workouts">
         <form class="form hidden">
           <div class="form__row">
@@ -80,28 +83,23 @@
           </div>
           <button class="form__btn">OK</button>
         </form>
-
-        
-
-        
       </ul>
       
+      <!-- Restart App  -->
       <button type="button" class="restart">Restart All</button>
+
+      <!-- copyright  -->
       <p class="copyright">  &copy; Mapty. <span id="year"></span> <a class="twitter-link" target="_blank" href="https://twitter.com/iNourEgy">NourEgy</a> and <a class="twitter-link" target="_blank" href="https://twitter.com/jonasschmedtman">Jonas Schmedtmann</a>. Use for learning And portfolio.</p>
 
+    </div> <!-- End Sidebar -->
 
-    </div>
-
-
+    <!-- Display Map -->
     <div id="map"></div>
 
+    <!-- Display Messages -->
     <div class="message"></div>
 
-
-
-
-
-
+  </div><!-- End Main -->
 
 </body>
 </html>
